@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+  
+    <title>Convert-Money</title>
+</head>
+
+<body>
+
+        <img src="./assets/logo.gif" alt="logo" class="logo-gif">
+        <div class="tudo">
+        <main>
+        <div>
+            <label>
+                <P>Converter:</P>
+                <select class="currency-select-1">
+                    <option value="real1"> Real Brasileiro </option>
+                    <option value="dolar1">EUA Dolar Americano</option>
+                    <option value="euro1"> € Euro </option>
+                    <option value ="bitcoin1"> Bit-Coin </option>
+                    <option value ="iene1"> Ienes </option>
+                </select>
+
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <P>Converter:</P>
+                <select class="currency-select">
+                    <option value="dolar">EUA Dolar Americano</option>
+                    <option value="euro"> € Euro </option>
+                    <option value ="bitcoin"> Bit-Coin </option>
+                    <option value ="iene"> Ienes </option>
+                </select>
+            </label>
+        </div>
+
+        <div>
+            <label>
+               <p>Valor:</p>
+                    <input class="input-botao" placeholder="0,00"></input>
+            </label>
+        </div>
+    
+
+
+    <button class="botao"><b>Converter</b></button>
+   
+
+      <section>
+            <div class="currency-box">
+                <img src="./assets/Real.png" class="reais" id="imgreal">
+                <p class="currency" id="currencyreal">Real Brasileiro</p>
+                <p class="currency-value"><strong>R$ 0,0</strong> </p>
+            </div>
+
+            <div class="currency-box">
+                <img  src="./assets/Arrow.png"  class="arrow-img alt="real>
+   -         </div>
+
+
+            <div class="currency-box">
+                <img  src="./assets/Dolar.png" alt="Dolarimg" id="imgdolar">
+                <p class="currency-2" id="currencyname"> <strong>Americano</strong></p>
+                <p class="currency-value-2"><b>0,00</b></p>
+            </div>
+
+        </section>
+    </main>
+</body>
+<script src="./arquivo.js"> </script>
+</html>

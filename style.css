@@ -1,0 +1,112 @@
+*{
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-color: #8A51FC;
+}
+
+.logo-gif {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    
+
+}
+
+main {
+    width: 375px;
+    height: auto;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: rgba(5, 5, 5, 0.925);
+    padding: 44px;
+    padding: 44px 24px 23px; 
+    
+}
+
+label {
+
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 700px;
+
+}
+
+select,input {
+           background-color: aliceblue;
+            border: 1px solid #bbbb;
+            border-radius: 4px;
+            height: 48px;
+            width: 100%;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            font-weight: 700;
+            font-size: 16px;
+}
+
+button {
+width: 327px;
+height: 48px;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+
+}
+
+section {
+border-radius: 20px;
+border: 1px solid;
+margin-top: 36px;
+padding: 12px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.arrow-img {
+    margin: 15px 0;
+
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 300px;
+    gap: 4px;
+
+}
+
+.currency {
+    font-size: 10px;
+    color: #fffdfd;
+   
+}
+
+.currency-value {
+font-size: 15px;
+font-weight: 800px;
+color: #ffffff;
+}
+
+.currency-value-2 {
+
+color: rgb(255, 255, 255);
+font-weight: 800px;
+
+}
+
+.currency-2 { 
+    
+    color: white;
+
+}
+
+p {
+    font-weight: 800px;
+     
+}
